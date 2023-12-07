@@ -6,6 +6,7 @@
   #header {
     background-image: url(img/BG-Header.png);
     background-size: cover;
+    background-position: center;
     height: 420px;
   }
 
