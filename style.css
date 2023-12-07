@@ -1,0 +1,33 @@
+#miElemento,
+  #frase {
+    margin-left: -900px;
+  }
+
+  #header {
+    background-image: url(img/BG-Header.png);
+    background-size: cover;
+    height: 420px;
+  }
+
+  #whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    /* Asegura que el botón esté sobre otros elementos */
+    border-radius: 50%;
+    background-color: #33ff00;
+    color: #fff;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #alert-box {
+    display: none;
+  }
